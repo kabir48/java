@@ -43,15 +43,71 @@
 // console.log('vowel');
 // else
 // console.log('consonent');
-var num1=prompt("Enter any number1");
-var num2=prompt("Enter any number2");
-var num3=prompt("Enter any number3");
-if(num1>num2 && num1>num3)
-document.write(num1+"&nbsp;"+'<h4>Number one is greater</h4>');
-else if(num2>num1 && num2>num3)
-document.write(num2+"&nbsp;"+'<h4>Number two is greater</h4>');
-else
-document.write(num3+"&nbsp;"+'<h4>Number three is greater</h4>');
+// var num1=prompt("Enter any number1");
+// var num2=prompt("Enter any number2");
+// var num3=prompt("Enter any number3");
+// if(num1>num2 && num1>num3)
+// document.write(num1+"&nbsp;"+'<h4>Number one is greater</h4>');
+// else if(num2>num1 && num2>num3)
+// document.write(num2+"&nbsp;"+'<h4>Number two is greater</h4>');
+// else
+// document.write(num3+"&nbsp;"+'<h4>Number three is greater</h4>');     89
+
+
+// var mark=prompt("Enter any Marks");
+//     mark=parseInt(mark);
+
+//     if((mark > 100))  
+//     document.write('Invaild Marks,Try to submit Vaild Marks!');
+//     else if(mark<0)
+//     document.write('Invaild Marks,Try to submit Vaild Marks!');
+//     else if(mark>=80 && mark<=100)
+//     document.write('A+');
+
+//     else if(mark>=70 && mark<=79)
+//     document.write('A');
+
+//     else if(mark>=60 && mark<=69)
+//      document.write('A-');
+
+//     else if(mark>=33 && mark<=39)
+//      document.write('D');
+
+//     else
+//      document.write('fail');
+
+
+    //  for(i=1;i<=100;i++){//i=initial  1+1
+    //       var res=i;
+    //       document.write(res+"<br>");
+    //  }
+
+    //  for(i=1;i<=100;i=i+2){//i=initial  1+1
+    //       var res=i;
+    //       document.write(res+"<br>");
+    //  }
+
+
+    // for(i=1;i<=100;i++){
+    //     for(j=1;j<=10;j++){
+    //         var res=i*j;
+    //         document.write(i+'x'+j+'='+res+'<br>');
+    //     }
+    //     document.write('<br>');
+    // }
+
+    var k=parseInt(prompt("Enter the First value"));
+    var h=parseInt(prompt("Enter the second value"));
+    var sum=0;
+    for(var x=k;x<=h;x=x+1){
+        sum=sum+x;
+    }
+    document.write(sum);
+
+
+
+
+
 
 
 
