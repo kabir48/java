@@ -17,6 +17,8 @@
 // document.write('The First Number:'+num1+"</br>"+'The Second Number:'+num2+"</br>"+'total:'+div+"</br>");
 // document.write('The First Number:'+num1+"</br>"+'The Second Number:'+num2+"</br>"+'total:'+rem+"</br>");
 
+//const { Console } = require("console");
+
 // var f=prompt("Enter Celcius Value");
 //  f=(f-32)*5/9;
 //  document.write('The Farhenhiet Value:'+f);
@@ -96,17 +98,67 @@
     //     document.write('<br>');
     // }
 
-    var k=parseInt(prompt("Enter the First value"));
-    var h=parseInt(prompt("Enter the second value"));
-    var sum=0;
-    for(var x=k;x<=h;x=x+1){
-        sum=sum+x;
+    // var k=parseInt(prompt("Enter the First value"));
+    // var h=parseInt(prompt("Enter the second value"));
+    // var sum=0;
+    // for(var x=k;x<=h;x=x+1){
+    //     sum=sum+x;
+    // }
+    // document.write(sum);
+    // function NameValue(num){
+    //     var res=num*num;
+    //     document.write("Result:"+res+"<br>");
+
+    // }
+    // NameValue(6);
+    // NameValue(7);
+
+
+    //   function NameValue(num,num2){
+    //     var res=num*num2;
+    //     return res;
+       
+    // }
+    // var x=NameValue(5,7);
+    //  document.write("Result:"+x+"<br>");
+
+
+
+//  var num=6;
+//  var res=num*num;
+//  document.write("Result:"+res+"<br>");
+
+//   var num=7;
+//  var res=num*num;
+//  document.write("Result:"+res+"<br>");
+
+
+
+
+function Teacher(name,salary,age,sub){
+    //alert("kabir");
+    this.name=name;
+    this.salary=salary;
+    this.age=age;
+    this.sub=sub;
+
+    this.display=function(){
+        console.log(this.name);
+        console.log(this.salary);[]
+        console.log(this.age);
+        console.log(this.sub);
     }
-    document.write(sum);
 
+ 
+}
+var teacherOne = new Teacher('Humayun Kabir',30000,23,['English','ICT','Math']);
+var teacherTwo = new Teacher('Jamil Ahmed',32000,23,['English','ICT','Math']);
 
+// document.write("name:"+ teacherOne.name+"<br>");
+// document.write("salary:"+ teacherOne.salary);
 
-
+teacherOne.display();
+teacherTwo.display();
 
 
 
