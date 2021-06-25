@@ -135,34 +135,88 @@
 
 
 
-function Teacher(name,salary,age,sub){
-    //alert("kabir");
-    this.name=name;
-    this.salary=salary;
-    this.age=age;
-    this.sub=sub;
+// function Teacher(name,salary,age,sub){
+//     //alert("kabir");
+//     this.name=name;
+//     this.salary=salary;
+//     this.age=age;
+//     this.sub=sub;
 
-    this.display=function(){
-        console.log(this.name);
-        console.log(this.salary);[]
-        console.log(this.age);
-        console.log(this.sub);
-    }
+//     this.display=function(){
+//         console.log(this.name);
+//         console.log(this.salary);
+//         console.log(this.age);
+//         console.log(this.sub);
+//     }
 
  
-}
-var teacherOne = new Teacher('Humayun Kabir',30000,23,['English','ICT','Math']);
-var teacherTwo = new Teacher('Jamil Ahmed',32000,23,['English','ICT','Math']);
+// }
+// var teacherOne = new Teacher('Humayun Kabir',30000,23,['English','ICT','Math']);
+// var teacherTwo = new Teacher('Jamil Ahmed',32000,23,['English','ICT','Math']);
 
 // document.write("name:"+ teacherOne.name+"<br>");
 // document.write("salary:"+ teacherOne.salary);
 
-teacherOne.display();
-teacherTwo.display();
+// teacherOne.display();
+// teacherTwo.display();
+// var myName=document.getElementById('getId');
+// myName.innerHTML=("I love Bangladesh");
+
+//document.querySelector('a').innerHTML="Hello world";
+
+// function getClik(){
+//      var myName=document.getElementById('getId');
+//      myName.innerText="I lover Coockuing";
+    
+     
+// }
+
+// var num=['kamal','jamal','mizan']; 
+// console.log(num.length)
+
+//done
+//getElementById
+//getElementsByTagName
+//getElementsByClassName
+
+// var myText=document.getElementById('getId');
+// myText.innerHTML=('I love Bangladesh');
+// myText.style.fontSize="20px";
+// myText.style.color="green";
+
+// var pText=document.getElementsByTagName('p');
+
+//  var pClass=document.getElementsByClassName('className');
+//https://www.pexels.com
 
 
+    // var multipleClass=document.querySelector('li a');
+    // var multipleClass=document.querySelector('ul li');
+    // multipleClass.style.textDecoration="none";
+    // multipleClass.style.listStyle="none";
+ 
 
 
+//var multipleClass=document.querySelectorAll('li a');
+
+// function buttontext(){
+//     var TextElement=document.querySelector('img');
+    
+//     TextElement.src= "image/pic1.png";
+
+// }
+
+var videoPayer =document.getElementById('videoPlayer');
+var playerVideo =document.getElementById('playerVideo');
+function closeBtn(){
+videoPayer.style.display="none";
+
+}
+function showVideo(file){
+    playerVideo.src=file;
+    videoPayer.style.display="block";
+
+}
 
 
 
